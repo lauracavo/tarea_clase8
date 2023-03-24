@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- links fuentes -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Questrial?category=Sans+Serif,Monospace"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Montserrat?query=montserrat&category=Sans+Serif,Monospace"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Golos+Text?category=Sans+Serif,Monospace"
+    />
+
+    <!-- link a css -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- link a bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo_inicio">
+          <a href="../index.html"
+            ><img
+              src="../img/logo_negro.png"
+              alt="logo linz"
+              class="logo_inicio"
+          /></a>
+        </div>
+        <div>
+          <ul>
+            <li><a href="./productos.html">PRODUCTOS</a></li>
+            <li><a href="./sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+            <li><a href="./pedidos.html">PEDIDOS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="main_pedidos">
+      <section id="logo_introducción">
+        <div class="imagen_logo">
+          <img src="../img/logo_blanco.png" alt="Logo Linz" height="200px" />
+        </div>
+        <div class="descripción">AGENDAS/PAPELERÍA</div>
+      </section>
+      <section>
+<form>
+  <div class="input-group">
+  <span class="input-group-text">Apellido y Nombre</span>
+  <input type="text" aria-label="First name" class="form-control">
+  <input type="text" aria-label="Last name" class="form-control">
+</div>
+<br>
+  <select class="form-select" aria-label="Default select example">
+  <option selected>Seleccione el producto</option>
+                <option value="">Cuadernillo A4</option>
+                <option value="">Cuadernillo A5</option>
+                <option value="">Cuaderno Inteligente A4</option>
+                <option value="">Cuaderno Inteligente A5</option>
+                <option value="">Agenda Docente A4 Vertical</option>
+                <option value="">Agenda A5 Vertical</option>
+                <option value="">Agenda Docente A4 Horizontal</option>
+                <option value="">Agenda Emprendedora A4</option>
+                <option value="">Agenda Emprendedora A5</option>
+                <option value="">Agenda Anual Diaria</option>
+                <option value="">Agenda Anual Semanal</option>
+                <option value="">Stickers</option>
+</select>
+<br>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+  </div>
+   <label for="exampleInputPassword1" class="form-label">Envio</label>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Si</label>
+  </div>
+    <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">No</label>
+  </div>
+ <div class="input-group input-group-lg">
+  <span class="input-group-text" id="inputGroup-sizing-lg">Direccion</span>
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+</div>
+<br>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+      </section>
+    </main>
+    <footer id="footer">
+      <p class="footer_page">&copy; 2023 , Linz Design</p>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</html>
